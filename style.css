@@ -11,7 +11,7 @@ ul{
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: azure;
 }
 li{
     display: inline;
@@ -21,9 +21,8 @@ li{
 a{
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     font-size: 20px;
-    background-color: azure;
 }
 li a {
     display: block;
@@ -44,3 +43,33 @@ li a {
     border-bottom: 3px red solid;
   }
 
+.hero-image{
+    background-image: url(images/dead-sea-8385900_1280.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-image h1{
+    color: white;
+    padding-top: 80px;
+    margin-left: 50px;
+}
+
+.hero-image p {
+    color: black;
+    padding-top: 10px;
+    margin-left: 80px;
+    width: max-content;
+    margin-bottom: 30px;
+}
+button{
+    margin-left: 80px;
+    background-color: green;
+    padding-top: 10px;
+    width: 140px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
