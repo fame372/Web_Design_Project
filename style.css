@@ -16,7 +16,7 @@ ul{
 li{
     display: inline;
     float: left;
-    
+    border-right: 1px solid whitesmoke;
 }
 a{
     display: block;
@@ -66,10 +66,11 @@ button{
     margin-left: 80px;
     background-color: green;
     padding-top: 10px;
-    width: 140px;
+    width: 180px;
     text-align: center;
     border: none;
-    padding: 10px;
+    padding: 15px;
     color: white;
     font-weight: bold;
+    border-radius: 5px;
 }
