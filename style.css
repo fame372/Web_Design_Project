@@ -2,3 +2,75 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*  Navbar styling*/
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: azure;
+}
+li{
+    display: inline;
+    float: left;
+    border-right: 1px solid whitesmoke;
+}
+a{
+    display: block;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: green;
+    color: white;
+    border-bottom: 3px red solid;
+  }
+
+  .active{
+    border-bottom: 3px red solid;
+  }
+
+.hero-image{
+    background-image: url(images/dead-sea-8385900_1280.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-image h1{
+    color: white;
+    padding-top: 80px;
+    margin-left: 50px;
+}
+
+.hero-image p {
+    color: black;
+    padding-top: 10px;
+    margin-left: 80px;
+    width: max-content;
+    margin-bottom: 30px;
+}
+button{
+    margin-left: 80px;
+    background-color: green;
+    padding-top: 10px;
+    width: 180px;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
